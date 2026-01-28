@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Recipe book</title>
+        <style>
+            /* Селекторы элементов */
+            body {
+                font-family: sans-serif;
+                background-color: #fdf6e3;
+            }
+            h1 {
+                color: #d33682;
+                text-align: center;
+            }
+            h2 {
+                border-bottom: 2px solid #2aa198;
+                padding-bottom: 5px;
+            }
+            table {
+                background-color: white;
+                border-collapse: collapse;
+                width: 50%;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            
+            /* Селектор по ID */
+            #table-of-contents {
+                background-color: #eee8d5;
+                padding: 15px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>My Favorite Recipes</h1>
+        
+        <div id="table-of-contents">
+            <h2>Table of Contents</h2>
+            <ol>
+                <li><a href="#pasta">Creamy Pasta</a></li>
+                <li><a href="#pancakes">Fluffy Pancakes</a></li>
+                <li><a href="#salad">Greek Salad</a></li>
+            </ol>
+        </div>
+
+        <h2 id="pasta">Creamy Pasta</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pasta</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <td>Cream</td>
+                    <td>100ml</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Details:</strong> Prep time: 10 mins | Cook time: 15 mins</p>
+        <ol>
+            <li>Boil the pasta in salted water.</li>
+            <li>Heat cream in a pan and add spices.</li>
+            <li>Mix everything together and serve.</li>
+        </ol>
+
+        <h2 id="pancakes">Fluffy Pancakes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flour</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1 cup</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li>Origin: International</li>
+            <li>Taste: Sweet</li>
+        </ul>
+        <p>Mix ingredients and fry on a hot pan until golden brown.</p>
+
+        <h2 id="salad">Greek Salad</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>3 pieces</td>
+                </tr>
+                <tr>
+                    <td>Feta Cheese</td>
+                    <td>100g</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Chop vegetables, add cheese and olive oil. <a href="https://en.wikipedia.org/wiki/Greek_salad">Learn more on Wikipedia</a>.</p>
+
+    </body>
+</html>
