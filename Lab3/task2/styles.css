@@ -99,3 +99,17 @@ input[type="checkbox"] {
 ul:empty{
     display: none;
 }
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    background: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.stats-container p {
+    margin: 0; 
+}

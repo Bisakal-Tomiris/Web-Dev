@@ -10,7 +10,9 @@ import { ProductCard } from '../product-card/product-card';
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',
 })
+
 export class ProductList {
+  
   products: Product[] = [
     {
       id: 1,
