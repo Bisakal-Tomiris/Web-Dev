@@ -4,11 +4,11 @@ from .models import Category, Product
 # Create your views here.
 
 def product_list(request):
-    products = Product.objects.all().order_by('-id').values()
+    products = Product.objects.all()
     data = {
         'products': list(products.values())
     }
-    return JsonResponse(data, safe=False, json_dumps_params={'indent': 2})
+    return JsonResponse(data)
 
 def product_detail(request, id):
     try:
